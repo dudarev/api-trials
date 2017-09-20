@@ -1,0 +1,5 @@
+run:
+	python manage.py runserver --settings=drf.settings.local
+
+sql_proxy:
+	cloud_sql_proxy -instances="waywoapp:us-central1:drf-gae"=tcp:3306
