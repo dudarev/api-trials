@@ -1,0 +1,5 @@
+venv
+*.pyc
+staticfiles
+drf/settings/heroku.py
+db.sqlite3
