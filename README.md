@@ -1,1 +1,1 @@
-A collections of various Python libraries to support REST API.
+A collections of REST API webapps using various Python libraries.
