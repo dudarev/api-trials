@@ -21,6 +21,11 @@ python manage.py createsuperuser
 ```
 
 ```
+gcloud auth application-default login
+gcloud config setproject <your-project>
+```
+
+```
 make sql_proxy
 ```
 
